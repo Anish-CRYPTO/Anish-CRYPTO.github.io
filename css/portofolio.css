@@ -1,0 +1,67 @@
+* 
+{
+    padding: 0;
+    margin: 0;   
+    font-family: 'Kanit', sans-serif;
+    font-size: large;
+}
+
+body{
+    background-color: orange;
+}
+
+#banner
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#banner img
+{
+    width: 100%;
+}
+
+.heading 
+{
+    position: absolute; 
+    color: white; 
+    text-align: center; 
+    top: 50%; 
+    width: 100%;
+}
+
+.img 
+{
+    width: 70%;
+    height: 90%;
+}
+
+#contact .card:hover i,#contact .card:hover h4{
+	color: #87d37c;
+}
+
+.border-box{
+    border-bottom: 5px solid aliceblue;
+    border-radius: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.inherit-box{
+    border-bottom: 5px solid inherit;
+    border-radius: 10%;
+    padding: 50px;
+    text-align: center;
+}
+
+.spaces{
+    margin-top: 50px;
+    border: 1px solid;
+    width: 60em;
+    box-sizing: border-box;
+}
+.float{
+    float: left;
+}
