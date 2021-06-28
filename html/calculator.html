@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+        
+        <title>Portofolio of Anish</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/portofolio.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar fixed-top scrolling-navbar">
+            <a href="home.html" class="navbar-brand">Anish Khedoe</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <ul class="navbar-nav">
+                <li class="navbar-nav">
+                    <a href="skills.html" class="nav-link">Skills</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="project.html" class="nav-link">Projects</a>
+                </li>
+                <li class="navbar-nav">
+                    <a href="contact-info.html" class="nav-link">contacts</a>
+                </li>
+            </div>
+            </ul>
+        </nav>
+        <div class="container-responsive">
+            <div id="banner">
+                <img src="../img/grey-banner.jpg" alt="artistic banner" class="img-fluid" style="height: 250px;">
+                <h1 class="heading">projects</h1>
+            </div>
+        </div>
+
+        <form id="calc">
+            value 1 <input type="text" id="value1">
+            value 2 <input type="text" id="value2">
+            operator: 
+            <select id="operator">
+                <option value="add">Add</option>
+                <option value="min">verminderen</option>
+                <option value="div">verdelen</option>
+                <option value="mul">vermenigvuldigen</option>
+            </select>
+            <button type="button" id="myBtn" onclick="calc()">Reken</button>
+        </form>
+
+    <div id="result"></div>
+
+<script src="../js/calculator.js"></script>
+</body>
+</html>
